@@ -1,13 +1,84 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+ @import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/**{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ccc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#mainBlock article{
+    margin: 10px auto;
+    width: 80%;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    grid-gap: 10px;
+    padding: 10px;
+
+
+}
+#mainBlock article figure img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+}
+#mainBlock article main{
+    background: #eeeeee7a;
+    padding: 10px;
+    box-shadow: 1px 1px 3px 1px #ccc;
+}
+#mainBlock article .Block{
+    display: flex;
+    background:#fff ;
+    padding: 5px;
+    border-bottom: 1px solid crimson;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.Block aside:nth-child(1){
+    flex-basis: 75%;
+}
+.Block aside:nth-child(2){
+    flex-basis: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+.Block aside span{
+    margin: 0 4px;
+}
+span i{
+    color: red;
+}
+.contentDes{
+    display: flex;
+    padding: 10px;
+    background: #fff;
+}
+.contentDes p{
+    flex-basis: 50%;
+}
+.contentDes p:last-child{
+    display: flex;
+    justify-content: flex-end;
+}
+footer a{
+    display: inline-block;
+    background-color:rgb(99, 205, 50);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 10px 0;
+} */
+
+.header{
+    height: 200px;
+    width: 80%;
+    padding-top: 60px;
 }
